@@ -5,7 +5,7 @@ pipeline {
         stage('exe maven') {
             steps {
                 
-                bat 'mvn clean install'
+                bat 'mvn install'
             }
         }
 
